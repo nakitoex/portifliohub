@@ -1,7 +1,7 @@
 # 🎓 Portfólio Acadêmico e Profissional | Arthur Pozzetti
 
 > Bem-vindo ao meu repositório de portfólio. Este espaço é dedicado a apresentar minha trajetória acadêmica, projetos desenvolvidos e habilidades em contínuo aprimoramento na área de Tecnologia da Informação.
-> Para acessar o site do portifólio, acesse o link: (https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://nakitoex.github.io/PortiflioHUB/))
+> Para acessar o site do portifólio, acesse o link: *[!(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://nakitoex.github.io/PortiflioHUB/))
 
 ---
 
