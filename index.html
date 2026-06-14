@@ -441,6 +441,33 @@
     gap: 6px;
   }
 
+  .proj-card { display: flex; flex-direction: column; }
+  .proj-card-body { flex: 1; }
+
+  .btn-proj-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 7px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: var(--brand);
+    background: var(--brand-light);
+    border: 1px solid var(--brand-border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s, transform 0.1s;
+    width: fit-content;
+  }
+
+  .btn-proj-link:hover {
+    background: var(--brand);
+    color: #fff;
+    transform: translateY(-1px);
+  }
+
   /* ── CURRICULUM ── */
   .cv-wrap { padding: 28px 28px 32px; }
 
@@ -837,19 +864,33 @@
       <div class="section-title">Projetos</div>
       <div class="projects-grid">
         <div class="proj-card">
-          <div class="proj-card-title">PortifólioHUB</div>
-          <div class="proj-card-desc">Site de portfólio pessoal hospedado no GitHub Pages, com design responsivo.</div>
-          <span class="proj-tag">HTML · CSS</span>
+          <div class="proj-card-body">
+            <div class="proj-card-title">PortifólioHUB</div>
+            <div class="proj-card-desc">Site de portfólio pessoal hospedado no GitHub Pages, com design responsivo.</div>
+            <span class="proj-tag">HTML · CSS</span>
+          </div>
+          <a class="btn-proj-link" href="https://github.com/Nakitoex/PortiflioHUB" target="_blank" rel="noopener">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.604-3.369-1.341-3.369-1.341-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.071 1.532 1.032 1.532 1.032.891 1.529 2.341 1.087 2.912.831.091-.646.349-1.087.635-1.337-2.22-.252-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.446-1.27.097-2.646 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.544 1.376.202 2.393.099 2.646.641.698 1.029 1.591 1.029 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.337-.012 2.415-.012 2.744 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            Ver no GitHub
+          </a>
         </div>
         <div class="proj-card">
-          <div class="proj-card-title">Algoritmos em Python</div>
-          <div class="proj-card-desc">Repositório de exercícios e desafios de lógica de programação.</div>
-          <span class="proj-tag">Python</span>
+          <div class="proj-card-body">
+            <div class="proj-card-title">Algoritmos em Python</div>
+            <div class="proj-card-desc">Repositório de exercícios e desafios de lógica de programação.</div>
+            <span class="proj-tag">Python</span>
+          </div>
         </div>
         <div class="proj-card">
-          <div class="proj-card-title">Projeto UniCEUB</div>
-          <div class="proj-card-desc">Trabalho acadêmico de Engenharia de Software com documentação completa.</div>
-          <span class="proj-tag">Java</span>
+          <div class="proj-card-body">
+            <div class="proj-card-title">Projeto UniCEUB</div>
+            <div class="proj-card-desc">Trabalho acadêmico de Engenharia de Software com documentação completa.</div>
+            <span class="proj-tag">Java</span>
+          </div>
+          <a class="btn-proj-link" href="https://ossi-ajuda-digital.vercel.app/" target="_blank" rel="noopener">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Ver projeto
+          </a>
         </div>
         <div class="proj-card proj-card-empty">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
