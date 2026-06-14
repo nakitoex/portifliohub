@@ -19,7 +19,7 @@ Se você for contribuir para este projeto, siga o padrão abaixo:
 3. Faça suas alterações de código.
 4. Envie a branch para o repositório remoto: `git push origin nome-da-sua-branch`
 5. Abra um *Pull Request* no GitHub detalhando as mudanças realizadas.
-
+Felipe esteve aqui
 ## 💻 Padrões de Código
 * Mantenha a estrutura de **HTML semântico** estabelecida.
 * Todo CSS deve manter as variáveis globais (ex: `--brand`, `--surface`) localizadas no root para consistência visual.
