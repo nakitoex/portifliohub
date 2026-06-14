@@ -1,6 +1,6 @@
 # Guia de Contribuição e Políticas de Segurança
 
-Agradecemos o interesse em colaborar com o **PortfolioHUB**. Para manter a integridade, a segurança e a organização do projeto, estabelecemos as seguintes políticas de segurança e práticas de colaboração. 
+Agradeceço o interesse em colaborar com o **PortfolioHUB**. Para manter a integridade, a segurança e a organização do projeto, estabeleci as seguintes políticas de segurança e práticas de colaboração. 
 
 ## 🛡️ Políticas de Segurança (Proteção da Branch Principal)
 Para garantir a conformidade com as melhores práticas, este repositório possui regras estritas para a branch `main` (que reflete o ambiente de produção no GitHub Pages):
