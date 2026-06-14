@@ -14,7 +14,7 @@ A gestão de usuários e o controle de acesso foram configurados diretamente nas
 
 Para garantir a integridade do código em produção, utilizamos regras de proteção de branch. Não são permitidos *commits* diretos na branch principal.
 
-Para saber mais sobre as regras de desenvolvimento e políticas de aprovação de código, consulte o nosso [Guia de Contribuição e Segurança](CONTRIBUTING.md).
+Para saber mais sobre as regras de desenvolvimento e políticas de aprovação de código, consulte o nosso [Guia de Contribuição e Segurança](contributing.md).
 
 ---
 
